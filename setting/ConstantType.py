@@ -1,0 +1,10 @@
+def html():
+    return ".html"
+def php():
+    return ".php"
+def json():
+    return ".json"
+def js():
+    return ".js"
+def css():
+    return ".css"
