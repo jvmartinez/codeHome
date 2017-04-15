@@ -1,27 +1,27 @@
 import setting.Constant as constant
-def functions(funciones,structuWrite):
-    parametro = ""
-    for func in funciones:
-       parametro = parametro.join(func)
-       p = parametro.find("*")
+def functions(functions, structuWrite):
+    parameter = ""
+    for func in functions:
+       parameter = parameter.join(func)
+       p = parameter.find("*")
        if(p != -1):
-           parametro = parametro.replace("*","*{0}")
-           metodo = parametro.split("*")[0]
-           parametro = parametro.split("*")
-           parametro.remove(parametro[0])
-           parametro = "".join(parametro).format("$").strip().replace(" ",",")
-           functionsWithParameter(metodo,parametro,structuWrite)
+           parameter = parameter.replace("*","*{0}")
+           method = parameter.split("*")[0]
+           parameter = parameter.split("*")
+           parameter.remove(parameter[0])
+           parameter = "".join(parameter).format("$").strip().replace(" ",",")
+           functionsWithParameter(method,parameter,structuWrite)
        else:
-           metodo = func
-           functionWithoutParameter(metodo,structuWrite)
-       parametro = ""
+           method = func
+           functionWithoutParameter(method,structuWrite)
+       parameter = ""
 
-def functionsWithParameter(metodo,parameter,structuWrite):
-    structuWrite.write("\t"+constant.functionPublic()+ metodo + "("+parameter+"){\n")
+def functionsWithParameter(method, parameter, structuWrite):
+    structuWrite.write("\t" + constant.functionPublic() + method + "(" + parameter + "){\n")
     structuWrite.write("\t\t/* Estructura del metodo */\n")
     structuWrite.write("\t}\n")
 
-def functionWithoutParameter(metodo,structuWrite):
-    structuWrite.write("\t"+constant.functionPublic()+ metodo +"(){\n")
+def functionWithoutParameter(method, structuWrite):
+    structuWrite.write("\t" + constant.functionPublic() + method + "(){\n")
     structuWrite.write("\t\t/* Estructura del metodo */\n")
     structuWrite.write("\t}\n")
