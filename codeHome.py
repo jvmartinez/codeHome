@@ -32,7 +32,6 @@ def infoApp():
     document.close()
     return contents
 
-
 if action == "codeHelp":
     print "Construccion de clases : (create class) segido por el nombre de la clase\n"
     print "Construccion de variables comienza con (_) segido por el nombre de la variable\n"
