@@ -1,12 +1,12 @@
 import typeFunctions as funtionsPhp
-def typeClass(structuWrite,_variables,funciones,nameClass):
+def typeClass(structuWrite, _variables, functions, nameClass):
     print "Nombre del archivo php: ", structuWrite.name
     header(structuWrite)
     structuWrite.write("class "+nameClass+"{\n")
     variables(_variables,structuWrite)
     get(_variables,structuWrite)
     set(_variables,structuWrite)
-    funtionsPhp.functions(funciones,structuWrite)
+    funtionsPhp.functions(functions, structuWrite)
     structuWrite.write("} \n")
 
 def separator(structuWrite):
@@ -35,8 +35,8 @@ def set(_variables, structuWrite):
 
 def header(structuWrite):
     structuWrite.write("/**\n")
-    structuWrite.write("* @autor: Juan Martinez\n")
-    structuWrite.write("* @framework: codeHome\n")
-    structuWrite.write("* @descripcion: framework desarrollado por Juan Martinez\n")
-    structuWrite.write("* @Redes Sociales: twitter | facebook | instagram @jvmartin3z\n")
+    structuWrite.write("* @Author: Juan Martinez\n")
+    structuWrite.write("* @Framework: codeHome\n")
+    structuWrite.write("* @Description: framework desarrollado por Juan Martinez\n")
+    structuWrite.write("* @Social networks: (twitter) =>  @jvmartin3z\n")
     structuWrite.write("*/\n")
