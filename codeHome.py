@@ -31,7 +31,6 @@ def infoApp():
     document.close()
     return contents
 
-
 if action == "codeHelp":
     print "Construccion de clases : (create class) segido por el nombre de la clase\n"
     print "Construccion de variables comienza con (_) segido por el nombre de la variable\n"
@@ -56,4 +55,4 @@ else:
             create.create(operator, variables, actionFunctions, infoApp(), constant.model())
         if action.endswith("create-view"):
             create.create(operator, variables, actionFunctions, infoApp(), constant.view())
-        print "proceso con exito"
+        print "proceso con exito...."
