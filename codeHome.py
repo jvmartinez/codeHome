@@ -25,7 +25,6 @@ actionFunctions.remove(actionFunctions[0])
 operator.remove(operator[0])
 variables.remove(variables[0])
 
-
 def infoApp():
     document = open(constant.infoApp(), "r")
     contents = document.read()
