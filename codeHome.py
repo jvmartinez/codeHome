@@ -25,7 +25,6 @@ actionFunctions.remove(actionFunctions[0])
 operator.remove(operator[0])
 variables.remove(variables[0])
 
-
 def infoApp():
     document = open(constant.infoApp(), "r")
     contents = document.read()
@@ -56,4 +55,4 @@ else:
             create.create(operator, variables, actionFunctions, infoApp(), constant.model())
         if action.endswith("create-view"):
             create.create(operator, variables, actionFunctions, infoApp(), constant.view())
-        print "proceso con exito"
+        print "proceso con exito...."
