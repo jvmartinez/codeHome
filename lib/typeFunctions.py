@@ -18,10 +18,10 @@ def functions(functions, structuWrite):
 
 def functionsWithParameter(method, parameter, structuWrite):
     structuWrite.write("\t" + constant.functionPublic() + method + "(" + parameter + "){\n")
-    structuWrite.write("\t\t/* Estructura del metodo */\n")
+    structuWrite.write("\t\t/* Structure of the method */\n")
     structuWrite.write("\t}\n")
 
 def functionWithoutParameter(method, structuWrite):
     structuWrite.write("\t" + constant.functionPublic() + method + "(){\n")
-    structuWrite.write("\t\t/* Estructura del metodo */\n")
+    structuWrite.write("\t\t/* Structure of the method */\n")
     structuWrite.write("\t}\n")

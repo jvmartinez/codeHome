@@ -42,7 +42,7 @@ if action =="codeHelp-en":
     print "Method construction with parameters:\n Begins con (:) followed by the name of the method and variables \n identified by * followed by name\n"
     print "Example :create class Juan _name _lastName _sex _age :greet *friend :bye\n"
 else :
-    if action != "create" and action != "update" and action != "delete" and action != "create-controller":
+    if action != "create":
         print "Verifique que sus instrucciones sean correctas!"
         print "Ayuda instrodusca codeHome help!"
     else:
