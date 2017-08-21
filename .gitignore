@@ -1,2 +1,4 @@
-/.idea/
-/.idea/*
+#IDEs
+*.idea/
+*.idea/*
+.idea/workspace.xml
