@@ -37,7 +37,7 @@ def header(structuWrite):
     structuWrite.write("/**\n")
     structuWrite.write("* @Author: Juan Martinez\n")
     structuWrite.write("* @Framework: codeHome\n")
-    structuWrite.write("* @Description: framework developed por Juan Martinez\n")
+    structuWrite.write("* @Description: framework developed by Juan Martinez\n")
     structuWrite.write("* @Social networks: (twitter) =>  @jvmartin3z\n")
     structuWrite.write("* @Social networks: (gitHub) =>  @jvmartinez\n")
     structuWrite.write("*/\n")
