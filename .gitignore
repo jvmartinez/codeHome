@@ -1,2 +1,3 @@
-/.idea/
-/.idea/*
+#IDEs
+*.idea/
+*.idea/*
