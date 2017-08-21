@@ -1,37 +1,13 @@
 def separador ():
     return "/"
-def controller():
-    return "Controller"
-def model():
-    return "Model"
-def view():
-    return "View"
-def resource():
-    return "resource"
-def resourceJs():
-    return "resource/js"
-def resourceCss():
-    return "resource/css"
-def resourceImg():
-    return "resource/img"
-def component():
-    return "component"
 def permissionFolde():
     return "0o777"
 def infoApp():
     return "infoApp.txt"
-def divBegin():
-    return "<div>"
-def divEnd():
-    return "</div>"
 def phpBegin():
     return "<?php"
 def phpEnd():
     return "?>"
-def app():
-    return "app"
-def table():
-    return "table"
 def class_():
     return "class"
 def functionPublic():
