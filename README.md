@@ -29,38 +29,39 @@ class Person{
 	private $_name;
 	private $_lastName;
 	private $_address;
+	#Method Get
 	public function getDni(){
 		 return $this->_dni;
 	}
-
+    #Method Get
 	public function getName(){
 		 return $this->_name;
 	}
-
+    #Method Get
 	public function getLastname(){
 		 return $this->_lastName;
 	}
-
+    #Method Get
 	public function getAddress(){
 		 return $this->_address;
 	}
-
+    #Method Set
 	public function setDni($dni){
 		 $this->_dni = $dni;
 	}
-
+    #Method Set
 	public function setName($name){
 		 $this->_name = $name;
 	}
-
+    #Method Set
 	public function setLastname($lastName){
 		 $this->_lastName = $lastName;
 	}
-
+    #Method Set
 	public function setAddress($address){
 		 $this->_address = $address;
 	}
-
+    #Method with parameter
 	public function CalculateAge ($date){
 		/* Structure of the method */
 	}
