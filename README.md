@@ -22,7 +22,7 @@
 ## Result
 > Class generated in the file folder
 > file/Person.php
-> ```php
+```php
 <?php
 class Person{
 	private $_dni;
