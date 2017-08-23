@@ -1,4 +1,5 @@
-[logo]: config/img/CodeHome_120.png
+[![logo](config/img/CodeHome_120.png)](config/img/CodeHome_120.png)
+
 # CodeHome
 **CodeHome** It allows to create object oriented structure for php where it facilitates the creation of classes with their respective access indicators (get and set), functions with parameters and without parameters.
 
