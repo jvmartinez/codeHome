@@ -71,7 +71,7 @@ class Person{
 
  ## Contribution
  
- *Your contribution will help us to improve this project, which is creating through its development.*
+ *Your contribution will help us to improve this project.*
  
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/jvmartinez)
 
