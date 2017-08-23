@@ -2,6 +2,8 @@
 # CodeHome
 **CodeHome** It allows to create object oriented structure for php where it facilitates the creation of classes with their respective access indicators (get and set), functions with parameters and without parameters.
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jvmartinez)
+
 ## Requirements
  + Python 2.7 (recommended)
 
